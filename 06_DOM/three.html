@@ -8,4 +8,17 @@
 <body style="background-color: #212121; color: #fff;">
     
 </body>
+<script>
+    const div = document.createElement('h1')
+    console.log(div);
+    div.className = 'Main'
+    div.id = Math.random() * 20 + 1
+    div.setAttribute("title","generic title")
+    div.style.backgroundColor = 'green'
+    div.style.padding = '10px'
+    div.innerText = "Js Tutorial"
+    const addText = document.createTextNode("Js tutorials")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
 </html>
