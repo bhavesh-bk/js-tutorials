@@ -14,15 +14,15 @@ buttons.forEach(function (button) {
         case 'blue':
             body.style.backgroundColor = e.target.id;
             break;
-            case 'yellow':
-                body.style.backgroundColor = e.target.id;
-                break;
-                case 'white':
-                    body.style.backgroundColor = e.target.id;
-                    break;
-                    case 'red':
-                        body.style.backgroundColor = e.target.id;
-                        break;
+        case 'yellow':
+            body.style.backgroundColor = e.target.id;
+            break;
+        case 'white':
+            body.style.backgroundColor = e.target.id;
+            break;
+        case 'red':
+            body.style.backgroundColor = e.target.id;
+            break;
        }
         
     })
