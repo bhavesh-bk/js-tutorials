@@ -16,13 +16,13 @@ form.addEventListener('submit', function (e){
         results.innerHTML = `<span>${bmi}</span>`;
     }
     if ( results.innerHTML < 18.6) {
-        category.innerHTML = `<span>'Underweight'</span>`
+        category.innerHTML = `Underweight`
     }
     else if( results.innerHTML > 18.6 && results.innerHTML < 24.9){
-        category.innerHTML = `<span>'Normal'</span>`
+        category.innerHTML = `Normal`
 
     }else if(results.innerHTML > 24.9){
-        category.innerHTML = `<span>'Overweight'</span>`
+        category.innerHTML = `Overweight`
 
     }
 })
